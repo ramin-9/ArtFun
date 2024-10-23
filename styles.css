@@ -9,10 +9,13 @@ body {
 }
 
 header {
+
     background-color: plum;
     color: white;
     padding: 10px 0;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header h1 {
@@ -22,6 +25,7 @@ header h1 {
 nav ul {
     list-style-type: none;
     padding: 0;
+    display: flex;
 }
 
 nav ul li {
@@ -138,5 +142,38 @@ footer {
 
     to {
         filter: hue-rotate(360deg);
+    }
+}
+
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        /* Stack header elements vertically */
+        align-items: center;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+        /* Slightly reduce the font size */
+    }
+
+    .nav-menu ul {
+        flex-direction: column;
+        /* Stack the navigation links vertically */
+        align-items: center;
+        width: 100%;
+    }
+
+    .nav-menu ul li {
+        margin: 10px 0;
+        /* Add space between menu items */
+    }
+
+    .nav-menu ul li a {
+        font-size: 1.5em;
+        /* Increase font size for better touch interaction */
     }
 }
