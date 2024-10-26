@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Apple Chancery, cursive;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -19,7 +19,7 @@ header {
 }
 
 header h1 {
-    margin: 0;
+    margin-left: 10px;
 }
 
 nav ul {
@@ -92,6 +92,7 @@ footer {
     border: 2px solid #ccc;
     border-radius: 5px;
     transition: transform 0.3s ease;
+    cursor: pointer;
 }
 
 .artwork img:hover {
@@ -135,6 +136,43 @@ footer {
 
 
 
+
+/* ------------------------------------------------------------------------ */
+/* click image */
+/* Hidden message box styling */
+#messageBox {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    z-index: 10;
+}
+
+#messageBox p {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Background overlay styling */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 5;
+    display: none;
+}
+
+/* -------------------------------------------------------------- */
 @keyframes animate {
     from {
         filter: hue-rotate(0deg);
@@ -153,6 +191,7 @@ footer {
         /* Stack header elements vertically */
         align-items: center;
         padding: 10px;
+
     }
 
     h1 {
@@ -175,5 +214,10 @@ footer {
     .nav-menu ul li a {
         font-size: 1.5em;
         /* Increase font size for better touch interaction */
+    }
+
+    #home-page-image {
+        height: 250px;
+        width: 250px;
     }
 }
