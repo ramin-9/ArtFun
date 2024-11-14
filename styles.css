@@ -172,6 +172,10 @@ footer {
     display: none;
 }
 
+.privacy {
+    margin-left: 1%;
+}
+
 /* -------------------------------------------------------------- */
 @keyframes animate {
     from {
