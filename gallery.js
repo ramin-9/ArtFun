@@ -17,7 +17,9 @@ const images = [
     { src: "images/CamScanner 10-22-2024 16.07 (1).jpg", alt: "chris", message: "A portrait of Chris, capturing the essence of charisma and strength." },
     { src: "images/CamScanner 10-22-2024 16.07.jpg", alt: "chrisblack", message: "A bold and striking piece, using black tones to evoke mystery and depth." },
     { src: "images/CamScanner 10-22-2024 16.08.jpg", alt: "snowwhitedark", message: "A darker, more enigmatic take on the Snow White story, blending fantasy and realism." },
-    { src: "images/CamScanner 10-22-2024 16.10.jpg", alt: "snowwhite", message: "A delicate rendering of Snow White, capturing her timeless beauty and innocence." }
+    { src: "images/CamScanner 10-22-2024 16.10.jpg", alt: "snowwhite", message: "A delicate rendering of Snow White, capturing her timeless beauty and innocence." },
+    { src: "images/dog.jpg", alt: "dog", message: "Man's best friend, immortalized in art. 🐾🎨" },
+    { src: "images/abstract.jpg", alt: "abstract", message: "Swirls of creativity: A cosmic dance of color and texture. ✨🖌️" }
 ];
 
 // Select the container and message box elements
