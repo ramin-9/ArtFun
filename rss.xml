@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>ArtFun - Art Showcase by Romi</title>
+    <link>https://artfun.pro</link>
+    <description>Explore stunning calligraphy and paintings by Romi.</description>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Feb 2025 12:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>Mesmerising Calligraphy Collection</title>
+      <link>https://artfun.pro/calligraphy</link>
+      <description>Dive into a collection of mesmerising calligraphy artworks by Romi.</description>
+      <pubDate>Wed, 12 Feb 2025 10:00:00 GMT</pubDate>
+      <guid>https://artfun.pro/calligraphy</guid>
+    </item>
+
+    <item>
+      <title>Stunning Paintings Gallery</title>
+      <link>https://artfun.pro/paintings</link>
+      <description>Explore a gallery of stunning paintings created by Romi.</description>
+      <pubDate>Wed, 12 Feb 2025 09:00:00 GMT</pubDate>
+      <guid>https://artfun.pro/paintings</guid>
+    </item>
+
+  </channel>
+</rss>
