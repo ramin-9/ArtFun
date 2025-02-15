@@ -12,7 +12,12 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    height: 100vh;
+    flex-direction: column;
+
 }
+
+
 
 header {
 
@@ -80,9 +85,9 @@ footer {
     background-color: purple;
     color: white;
     padding: 3px;
-    position: fixed;
-    bottom: 0;
     width: 100%;
+    margin-top: auto;
+
 }
 
 
@@ -117,6 +122,7 @@ footer {
 .social {
     text-align: left;
     margin: 2rem;
+    margin-top: 15rem;
 }
 
 .socicons {
