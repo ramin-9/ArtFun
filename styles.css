@@ -122,7 +122,7 @@ footer {
 .social {
     text-align: left;
     margin: 2rem;
-    margin-top: 15rem;
+    margin-top: 21rem;
 }
 
 .socicons {
@@ -143,8 +143,9 @@ footer {
 
 #youtube,
 #instagram,
-#whatsapp {
-    font-size: 6em;
+#whatsapp,
+#rss {
+    font-size: 1.3em;
     margin: 0 20px;
     animation: animate 3s linear infinite;
 }
