@@ -1,5 +1,5 @@
 const images = [
-    {src: "images/sunflower.jpg", alt: "sunflower", message: "Golden beauty rising with the sun. A burst of color and joy on wood — my sunflower art against a dreamy sky" },
+    { src: "images/sunflower.jpg", alt: "sunflower", message: "Golden beauty rising with the sun. A burst of color and joy on wood — my sunflower art against a dreamy sky" },
     { src: "images/CamScanner 10-22-2024 15.37.jpg", alt: "bird", message: "Captured the beauty of nature in this little bluebird. 🎨🕊 Painted with love, framed with care. What do you think? 💙" },
     { src: "images/CamScanner 10-22-2024 15.44.jpg", alt: "autumn", message: "Finding beauty in the rain 🌧❤️ A walk through a crimson dream. This piece holds a special place in my heart. What feelings does it evoke for you?" },
     { src: "images/CamScanner 10-22-2024 15.46.jpg", alt: "daf", message: "Channeling the elegance of tradition through colour and movement 🎨👑 Inspired by rich cultural heritage, this painting celebrates grace and history. What stories do you see?" },
