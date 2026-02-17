@@ -37,7 +37,16 @@ http://ramin-aws-website-2026.s3-website-ap-southeast-2.amazonaws.com
 
 ## Screenshots
 
-[/screenshots/]
+### S3 Bucket Configuration
+![S3 Bucket](screenshots/s3-bucket.png)
+
+### Static Website Hosting Enabled
+![Static Hosting](screenshots/static-hosting.png)
+
+### Live Website
+![Live Site](screenshots/live-site.png)
+### Architecture
+![Diagram](<screenshots/Architecture diagram.png>)
 
 ## Skills Demonstrated
 
